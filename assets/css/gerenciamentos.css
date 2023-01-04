@@ -1,0 +1,22 @@
+@import url(./cabecalho.css);
+@import url(./tabela.css);
+@import url(./modal.css);
+@import url(./form.css);
+
+.adicionar {
+    position: fixed;
+    top: 86vh;
+    left: 96vw;
+    font-size: 2vw;
+    background-color: var(--azul-esverdeado);
+    border: 0;
+    border-radius: 100%;
+    padding: 1vw;
+    color: var(--branco);
+}
+
+.adicionar:hover {
+    background-color: #2F6C90;
+    cursor: pointer;
+    transition: 100ms;
+}

@@ -1,0 +1,97 @@
+.cabecalho {
+    display: flex;
+    padding: 4vw 4vh;
+    background-color: var(--azul-esverdeado);
+    width: 100%;
+
+    position: fixed;
+    z-index: 999;
+    
+}
+
+.cabecalho__imagem {
+    position: absolute;
+    width: 2.6vw;
+    top: 8vh;
+    left: 2vw;
+}
+
+.cabecalho__titulo {
+    margin-right: 45vw;
+    margin-left: 4vw;
+    color: var(--branco);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.cabecalho__busca-input {
+    width: 10vw;
+    padding-top: 1vh;
+    padding-bottom: 0.8vh;
+    color: var(--azul-esverdeado);
+    font-size: 1vw;
+
+    position: absolute;
+    top: 7vh;
+    right: 26vw;
+}
+
+.cabecalho__busca-botao {
+    background: none;
+    border: none;
+    position: absolute;
+    left: 75.5vw;
+    top: 7.6vh;
+    background-color: var(--azul-esverdeado);
+}
+
+.cabecalho__busca-botao:hover {
+    cursor: pointer;
+}
+
+.cabecalho__busca-img {
+    width: 1.4vw;
+}
+
+.cabecalho__usuario {
+    display: flex;
+}
+
+.cabecalho__usuario-nome {
+    color: var(--branco);
+    margin-top: 1vh;
+    margin-right: 1vh;
+    font-size: 1.1vw;
+
+    position: absolute;
+    left: 82vw;
+    top: 7vh;   
+}
+
+.cabecalho__usuario-foto {
+    width: 2vw;
+    border-radius: 100%;
+
+    position: absolute;
+    left: 90vw;
+    top: 7vh;
+}
+
+.cabecalho__deslog {
+    background: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+    padding: 0.4vw;
+    font-size: 0.9vw;
+
+    position: absolute;
+    left: 94vw;
+    top: 7vh;
+}
+
+.cabecalho__deslog:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0, 10%);
+}

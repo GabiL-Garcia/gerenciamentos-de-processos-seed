@@ -1,0 +1,17 @@
+@import url(./reset.css);
+
+
+html {
+    font-family: var(--fonte-segoe);
+}
+
+@font-face {
+    font-family: 'Segoe';
+    src: url(../font/Segoe\ UI.ttf) format('truetype');
+}
+
+:root {
+    --azul-esverdeado: #233d4d;
+    --branco: white;
+    --fonte-segoe: 'Segoe';
+}

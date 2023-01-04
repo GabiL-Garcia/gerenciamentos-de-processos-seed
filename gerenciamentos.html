@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gerenciamento de processos</title>
+
+        <link rel="icon" type="image/x-icon" href="./assets/img/favicon.svg">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/gerenciamentos.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img src="./assets/img/martelo.svg" class="cabecalho__imagem">
+            <h1 class="cabecalho__titulo">Gerenciamento de processos</h1>
+            <div class="cabecalho__busca">
+                <input type="text" value="" class="cabecalho__busca-input" placeholder="Busca">
+                <button type="button" class="cabecalho__busca-botao"><img src="./assets/img/lupa.svg" class="cabecalho__busca-img"></button>
+            </div>
+            <div class="cabecalho__usuario">
+                <p class="cabecalho__usuario-nome">Gabrielli Garcia</p>
+                <img src="./assets/img/foto_generica.jpg" alt="Foto genérica" class="cabecalho__usuario-foto">
+            </div>
+            <button class="cabecalho__deslog">Sair</button>
+        </header>
+        <main>
+            <table class="tabela">
+                <tr class="tabela__titulos">
+                    <th class="tabela__titulos-titulo">Presidente do PAD</th>
+                    <th class="tabela__titulos-titulo">Protocolado</th>
+                    <th class="tabela__titulos-titulo">Data Início Protocolo</th>
+                    <th class="tabela__titulos-titulo">NRE</th>
+                    <th class="tabela__titulos-titulo">Município</th>
+                    <th class="tabela__titulos-titulo">Estabelecimento</th>
+                    <th class="tabela__titulos-titulo">Acusados</th>
+                    <th class="tabela__titulos-titulo">Vínculo</th>
+                    <th class="tabela__titulos-titulo">Fato</th>
+                    <th class="tabela__titulos-titulo">Tipo</th>
+                    <th class="tabela__titulos-titulo">Ato inicial</th>
+                    <th class="tabela__titulos-titulo">Data DOE</th>
+                    <th class="tabela__titulos-titulo">Autos</th>
+                    <th class="tabela__titulos-titulo">Comissão</th>
+                    <th class="tabela__titulos-titulo">Observação</th>
+                    <th class="tabela__titulos-titulo">Instalação</th>
+                    <th class="tabela__titulos-titulo">Dossiê histórico-funcional</th>
+                    <th class="tabela__titulos-titulo">Data da Intimação Inicial</th>
+                    <th class="tabela__titulos-titulo">Data do recebimanto da Defesa Prévia</th>
+                    <th class="tabela__titulos-titulo">Data da Audiência</th>
+                    <th class="tabela__titulos-titulo">Data do Indiciamento</th>
+                    <th class="tabela__titulos-titulo">Data das Alegações Finais</th>
+                    <th class="tabela__titulos-titulo">Data da entrega do Relatório Final</th>
+                    <th class="tabela__titulos-titulo">Resultado da Deliberação do Conselho do Magistério</th>
+                    <th class="tabela__titulos-titulo">Data de Recebimento do Conselho do Magistério</th>
+                    <th class="tabela__titulos-titulo">Data de Encaminhamento para Autoridade Instaladora</th>
+                    <th class="tabela__titulos-titulo">Resolução Secretarial SEED</th>
+                    <th class="tabela__titulos-titulo">Pena aplicada pela SEED</th>
+                    <th class="tabela__titulos-titulo">Data de encaminhamento para a Casa civil</th>
+                    <th class="tabela__titulos-titulo">Pena aplicada pela Casa Civil</th>
+                    <th class="tabela__titulos-titulo">Embargos</th>
+                    <th class="tabela__titulos-titulo">Reconsideração Administrativa</th>
+                    <th class="tabela__titulos-titulo">Recurso Administrativo</th>
+                </tr>
+                <table class="tabela__conteudo">
+                    
+                </table>
+            </table>
+            <button class="adicionar">+</button>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <span class="modal-exit">&times;</span>
+                    <form class="formulario">
+                        
+                        <label for="presidentepad" class="form__label">Presidente do PAD</label>
+                        <input type="text" id="presidentepad" class="form__input">
+
+                        <label for="protocolado" class="form__label">Protocolado</label>
+                        <input type="text" id="protocolado" class="form__input">
+
+                        <label for="datainicioprotocolo" class="form__label">Data Início Protocolo</label>
+                        <input type="date" id="datainicioprotocolo" class="form__input">
+
+                        <label for="nre" class="form__label">NRE</label>
+                        <input type="text" id="nre" class="form__input">
+
+                        <label for="municipio" class="form__label">Município</label>
+                        <input type="text" id="municipio" class="form__input">
+
+                        <label for="estabelecimento" class="form__label">Estabelecimento</label>
+                        <input type="text" id="estabelecimento" class="form__input">
+
+                        <label for="acusados" class="form__label">Acusados</label>
+                        <input type="text" id="acusados" class="form__input">
+
+                        <label for="vinculo" class="form__label">Vínculo</label>
+                        <input type="text" id="vinculo" class="form__input">
+                        
+                        <label for="fato" class="form__label">Fato</label>
+                        <input type="text" id="fato" class="form__input">
+
+                        <label for="tipo" class="form__label">Tipo</label>
+                        <input type="text" id="tipo" class="form__input">
+
+                        <label for="atoinicial" class="form__label">Ato inicial</label>
+                        <input type="text" id="atoinicial" class="form__input">
+
+                        <label for="datadoe" class="form__label">Data DOE</label>
+                        <input type="text" id="datadoe" class="form__input">
+
+                        <label for="autos" class="form__label">Autos</label>
+                        <input type="text" id="autos" class="form__input">
+
+                        <label for="comissao" class="form__label">Comissão</label>
+                        <input type="text" id="comissao" class="form__input">
+
+                        <label for="observacao" class="form__label">Observação</label>
+                        <input type="text" id="observacao" class="form__input">
+
+                        <label for="instalacao" class="form__label">Instalação</label>
+                        <input type="text" id="instalacao" class="form__input">
+
+                        <label for="dossiehf" class="form__label">Dossiê histórico-funcional</label>
+                        <input type="text" id="dossiehf" class="form__input">
+
+                        <label for="dataintimacaoinicial" class="form__label">Data da Intimação Inicial</label>
+                        <input type="text" id="dataintimacaoinicial" class="form__input">
+
+                        <label for="datarecebimentodp" class="form__label">Data do recebimanto da Defesa Prévia</label>
+                        <input type="text" id="datarecebimentodp" class="form__input">
+
+                        <label for="dataaudiencia" class="form__label">Data da Audiência</label>
+                        <input type="text" id="dataaudiencia" class="form__input">
+
+                        <label for="dataindiciamento" class="form__label">Data do Indiciamento</label>
+                        <input type="text" id="dataindiciamento" class="form__input">
+
+                        <label for="dataalegacoesfinais" class="form__label">Data das Alegações Finais</label>
+                        <input type="text" id="dataalegacoesfinais" class="form__input">
+
+                        <label for="dataentregarelatoriofinal" class="form__label">Data da entrega do Relatório Final</label>
+                        <input type="text" id="dataentregarelatoriofinal" class="form__input">
+
+                        <label for="resultadodeliberacaocm" class="form__label">Resultado da Deliberação do Conselho do Magistério</label>
+                        <input type="text" id="resultadodeliberacaocm" class="form__input">
+
+                        <label for="datarecebimentocm" class="form__label">Data de Recebimento do Conselho do Magistério</label>
+                        <input type="text" id="datarecebimentocm" class="form__input">
+
+                        <label for="dataencaminhamentoai" class="form__label">Data de Encaminhamento para Autoridade Instaladora</label>
+                        <input type="text" id="dataencaminhamentoai" class="form__input">
+
+                        <label for="resolucaosecretarialseed" class="form__label">Resolução Secretarial SEED</label>
+                        <input type="text" id="resolucaosecretarialseed" class="form__input">
+
+                        <label for="penaaplicadapelaseed" class="form__label">Pena aplicada pela SEED</label>
+                        <input type="text" id="penaaplicadapelaseed" class="form__input">
+
+                        <label for="dataencaminhamentocc" class="form__label">Data de encaminhamento para a Casa civil</label>
+                        <input type="text" id="dataencaminhamentocc" class="form__input">
+
+                        <label for="penaaplicadacc" class="form__label">Pena aplicada pela Casa Civil</label>
+                        <input type="text" id="penaaplicadacc" class="form__input">
+
+                        <label for="embargos" class="form__label">Embargos</label>
+                        <input type="text" id="embargos" class="form__input">
+
+                        <label for="reconsideracaoadm" class="form__label">Reconsideração Administrativa</label>
+                        <input type="text" id="reconsideracaoadm" class="form__input">
+
+                        <label for="recursoadm" class="form__label">Recurso Administrativo</label>
+                        <input type="text" id="recursoadm" class="form__input">
+                        
+                        <button type="submit" class="botao__salvar">Salvar</button>
+
+                    </form>
+                    
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/formulario.js"></script>
+    <script src="./assets/js/botaoDeslog.js"></script>
+</html>

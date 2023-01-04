@@ -1,0 +1,13 @@
+.form__label, .form__input {
+    margin-left: 2vw;
+}
+
+.form__input {
+    display: block;
+    margin-bottom: 6vh;
+    margin-top: 2vh;
+}
+
+#recursoAdministrativo {
+    margin-bottom: 14vh;
+}

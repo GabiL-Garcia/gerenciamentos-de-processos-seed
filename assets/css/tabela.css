@@ -1,0 +1,23 @@
+.tabela {
+    position: absolute;
+    width: 400vw;
+    top: 20vh;
+    left: -2vw;
+    margin-left: 2vw;
+    overflow: hidden;
+    
+}
+
+.tabela__titulos-titulo {
+    border-right: 0.1vw solid var(--azul-esverdeado);
+    border-bottom: 0.1vw solid var(--azul-esverdeado);
+    border-top: 0.1vw solid var(--azul-esverdeado);
+    padding: 1vw 1vh;
+    line-height: 2vh;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.tabela__conteudos-conteudo {
+    font-size: 12px;
+}
